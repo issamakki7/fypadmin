@@ -1,0 +1,51 @@
+[
+  {
+    "id": 1,
+    "name": "Book",
+    "price": 10.99,
+    "imgUrl": "../../src/assets/images/book.jpg"
+  },
+  {
+    "id": 2,
+    "name": "Computer",
+    "price": 1199,
+    "imgUrl": "../../src/assets/images/computer.jpg"
+  },
+  {
+    "id": 3,
+    "name": "Banana",
+    "price": 1.05,
+    "imgUrl": "../../src/assets/images/banana.jpg"
+  },
+  {
+    "id": 4,
+    "name": "Car",
+    "price": 14000,
+    "imgUrl": "../../src/assets/images/car.jpg"
+  },
+
+  {
+    "id": 5,
+    "name": "Book",
+    "price": 10.99,
+    "imgUrl": "../../src/assets/images/book.jpg"
+  },
+  {
+    "id": 6,
+    "name": "Computer",
+    "price": 1199,
+    "imgUrl": "../../src/assets/images/computer.jpg"
+  },
+  {
+    "id": 7,
+    "name": "Banana",
+    "price": 1.05,
+    "imgUrl": "../../src/assets/images/banana.jpg"
+  },
+  {
+    "id": 8,
+    "name": "Car",
+    "price": 14000,
+    "imgUrl": "../../src/assets/images/car.jpg"
+  }
+]

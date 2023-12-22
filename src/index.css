@@ -1,0 +1,74 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  line-height: 1.5;
+  font-family: "Poppins", sans-serif;
+}
+html {
+  line-height: 1.5;
+  font-family: "Poppins", sans-serif;
+}
+
+.btn--primary {
+  background-color: var(--primary);
+}
+
+.btn {
+  height: 48px;
+  width: 180px;
+  text-decoration: none;
+  font-size: 1.15em;
+  font-weight: 650;
+  padding: 8px 20px;
+  border-radius: 4px;
+  outline: none;
+  border: none;
+  cursor: pointer;
+  /* background: #ffba08; */
+  background: linear-gradient(
+    90deg,
+    rgb(255, 162, 0) 0%,
+    rgb(255, 202, 0) 100%
+  );
+  color: #24262b;
+  margin-right: 15px;
+}
+
+.btn:hover {
+  padding: 8px 20px;
+  transition: all 0.3s ease-out;
+  color: #f9f9f9;
+  /* background: #ffff; */
+  /* color:#f48c06; */
+  background: linear-gradient(
+    90deg,
+    rgb(255, 174, 0) 0%,
+    rgb(255, 128, 0) 100%
+  );
+  transition: all 0.4s ease-out;
+}
+
+.bidsRecButton {
+  height: 58px;
+  width: 100px;
+  text-decoration: none;
+  font-size: 0.1em;
+  font-weight: 650;
+  padding: 3px 9px;
+  border-radius: 4px;
+  outline: none;
+  border: none;
+  cursor: pointer;
+  background: #24262b;
+  color: #f9f9f9;
+  margin-right: 8px;
+}
+
+.bidsRecButton:hover {
+  padding: 8px 20px;
+  transition: all 0.3s ease-out;
+  background: #ffba08;
+  color: #24262b;
+  transition: 250ms;
+}

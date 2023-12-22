@@ -1,0 +1,50 @@
+.container {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 0 16px;
+  }
+  
+  .heading {
+    margin-top: 50px;
+  }
+  
+  .cardContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 400px;
+  }
+  
+  .card {
+    width: 250px;
+    height: 250px;
+    border-radius: 0 0 50% 50% / 20% 20% 0 0;
+    padding: 16px;
+    margin: 1px 2rem 1px 1px;
+    cursor: pointer;
+    transition: transform 0.3s ease-out;
+  }
+  
+  .card:hover {
+    transform: scale(1.1);
+  }
+  
+  @media (max-width: 960px) {
+    .cardContainer {
+      height: auto;
+      flex-wrap: wrap;
+    }
+  
+    .card {
+      width: 90%;
+      margin: 10px auto;
+    }
+  }
+  
+  @media (max-width: 600px) {
+    .card {
+      width: 100%;
+      height: auto;
+    }
+  }
+  
